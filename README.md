@@ -1,11 +1,9 @@
 # SmartSort - Automated File Organizer Using Python
 
 ## Overview
-
 SmartSort is a Python-based file organization tool that automatically sorts files into folders based on their file extensions. The project helps users keep directories such as Downloads, Desktop, and Documents organized by reducing manual file management.
 
 ## Features
-
 * Automatically scans a selected folder
 * Detects file types using file extensions
 * Creates category folders automatically
@@ -27,15 +25,11 @@ SmartSort is a Python-based file organization tool that automatically sorts file
 ## Technologies Used
 
 ### Python
-
 The primary programming language used for developing the project.
 
 ### OS Module
-
 Used for interacting with the operating system and managing directories.
-
 Functions Used:
-
 * os.listdir()
 * os.path.join()
 * os.path.exists()
@@ -43,15 +37,11 @@ Functions Used:
 * os.mkdir()
 
 ### Shutil Module
-
 Used for performing high-level file operations.
-
 Function Used:
-
 * shutil.move()
 
 ## Project Workflow
-
 1. User specifies the folder path.
 2. Program reads all files from the selected folder.
 3. File extensions are extracted.
@@ -61,11 +51,8 @@ Function Used:
 7. A summary report is displayed.
 
 ## Example
-
 ### Before
-
 Downloads/
-
 * photo.jpg
 * resume.pdf
 * song.mp3
@@ -73,9 +60,7 @@ Downloads/
 * project.zip
 
 ### After
-
 Downloads/
-
 * Images/
 * Documents/
 * Audio/
@@ -83,7 +68,6 @@ Downloads/
 * Archives/
 
 ## Skills Demonstrated
-
 * Python Programming
 * File Handling
 * Automation
@@ -92,7 +76,5 @@ Downloads/
 * Operating System Interaction
 
 ## Author
-
-Varad Patil
-
-Second Year Computer Science Engineering Student
+Varad Salunkhe
+Computer Science Engineering Student
